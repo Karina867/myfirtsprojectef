@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace mywebapp.Models;
-public class Task
+public class Tasks
 {
 
     // [Key]

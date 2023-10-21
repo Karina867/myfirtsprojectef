@@ -14,5 +14,5 @@ public class Category
   public int Pound { get; set; }
   
   [JsonIgnore]
-  public virtual ICollection<Task> Tasks { get; set; }
+  public virtual ICollection<Tasks> Tasks { get; set; }
 }
